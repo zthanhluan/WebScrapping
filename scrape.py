@@ -11,11 +11,11 @@ def scrapWebsite(website):
     #headless Browsing
     options.add_argument("--headless")
     # Specify Firefox binary location if needed
-    #options.binary_location = r"C:\Program Files\Mozilla Firefox\firefox.exe" 
+    options.binary_location = r"C:\Program Files\Mozilla Firefox\firefox.exe" 
     
     # Path to the firefox WebDriver and Profile
-    #profile = FirefoxProfile(r"C:\\Users\\luan.vt\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\q4cekwng.default-release") 
-    #options.profile = profile  # Assign the profile object
+    profile = FirefoxProfile(r"C:\\Users\\luan.vt\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\q4cekwng.default-release") 
+    options.profile = profile  # Assign the profile object
     firefoxDriver_path = "./geckodriver.exe"
     
     service = Service(firefoxDriver_path) 
