@@ -29,34 +29,24 @@
 
 ### Installation Guide:
 
-1. Python Virtual Environment
+## 1. Python Virtual Environment
 ```bash
 python -m venv <venv_name>
 
----
-
-2. Activate Virtual Environment
+## 2. Activate Virtual Environment
 ```bash
 <venv_name>\Scripts\activate
 
----
-
-3. Install Requirements
+## 3. Install Requirements
 ```bash
 pip install -r requirements.txt
 
----
-
-4. Install Ollama
+## 4. Install Ollama
 To use the Llama model, install it from the official Ollama website.
 
----
-
-5. Run the Application
+## 5. Run the Application
 ```bash
 streamlit run main.py --server.port 3001
-
----
 
 ### Reference:
 Dark Web Scraping Using AI: Tools, Techniques, and Challenges
